@@ -36,6 +36,7 @@ def start(style):
 
         #actual collatz math
         while number != 1:
+            #chech if odd or even
             if '.5' not in str(number / 2):
                 number = number / 2
             else:
@@ -43,10 +44,15 @@ def start(style):
             #show the number and add it to the list
             print(round(number))
             numList.append(number)
+        #add the 4-2-1 to avoid having a negative amount of terms printed later
+        numList.append(4)
+        numList.appaend(2)
+        numList.append(1)
         #sort the list so the largest num is at the end
         numList.sort()
         #show stats to the user
-        print(f'''reached loop
+        print('reached loop')
+        print(f'''
 terms until 4-2-1 loop: {len(numList) - 3}
 largest number: {round(numList[len(numList)-1])}
 ''')
