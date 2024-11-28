@@ -10,21 +10,25 @@ def start(style):
         while asking:
             if style == 'input':
                 number = input('enter any number ')
+                asking = False
             elif style == 'random':
                 number = input('enter maximum value ')
+                asking = False
                 
             try:
                 number = int(number)
                 asking = False
             except ValueError:
-                print('invalid input ')
+                if number.lower() == 'inf' or number.lower() == 'infinity':
+                    print('nuh uh >:P')
+                else:
+                    print('invalid input ')
                 asking = True
 
-            if style == 'random':
-                number = random.randint(1,number)
-
+        if style == 'random':
+            number = random.randint(1,number)
             print(f'''chosen number: {number}
-''')
+            ''')
             
         while number != 1:
             if '.5' not in str(number / 2):
