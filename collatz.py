@@ -61,7 +61,7 @@ def runInput():
         #call main function with user input
         run(number)
 
-
+#get mode - random or user input
 asking = True
 while asking:
     mode = input ('Input or Random? ')
