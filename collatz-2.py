@@ -1,4 +1,7 @@
 import random
+print('Soup\'s Collatz Conjecture Simulator version 2')
+print('')
+print('')
 
 def start(style):
     while True:
