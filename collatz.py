@@ -22,12 +22,15 @@ def run(number):
     else:
         print(f'terms until loop: 0')
     print('')
-    
+
+#get number and set random range
 def runRandom():
     while True:
         rangeRunning = True
+        #get user input
         while rangeRunning:
             rangeVar = input ('Enter maximum value: ')
+            #check for infinity or integer
             if numVar.lower() == 'infinity' or numVar.lower() == 'inf':
                 print('nuh uh >:P')
             try:
@@ -37,13 +40,17 @@ def runRandom():
             except ValueError:
                 print ('Invalid response' )
         print(f'number selected: {number}')
+        #call main function with random number
         run(number)
 
+#get number set by user
 def runInput():
     while True:
         inputRunning = True
         while inputRunning:
+            #get user input
             numVar = input ('Enter a number: ')
+            #check for infinity or integer
             if numVar.lower() == 'infinity' or numVar.lower() == 'inf':
                 print('nuh uh >:P')
             try:
@@ -51,6 +58,7 @@ def runInput():
                 inputRunning = False
             except ValueError:
                 print ('Invalid response ')
+        #call main function with user input
         run(number)
 
 
