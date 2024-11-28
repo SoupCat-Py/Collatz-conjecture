@@ -26,6 +26,8 @@ def runRandom():
         rangeRunning = True
         while rangeRunning:
             rangeVar = input ('Enter maximum value: ')
+            if numVar.lower() == 'infinity' or numVar.lower() == 'inf':
+                print('nuh uh >:P')
             try:
                 rangeVar = int(rangeVar)
                 number = random.randint(1,rangeVar)
