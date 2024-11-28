@@ -1,18 +1,21 @@
 import random
-print('''Soup\'s \"3x+1\" simulator
+print('''Soup\'s Collatz Conjecture - \"3x+1\" simulator
 
 ''')
 
+#actual math function
 def run(number):
-
     amount = 0
     while number != 1:
+        #check if odd or even
         if '.5' in str(number/2):
             number = (number * 3) +1
         else:
             number = (number / 2)
+        #print number and add to the list
         print(round(number))
         amount += 1
+    #show stats to user
     print('reached loop')
     if amount >= 0:
         print(f'terms until loop: {amount-3}')
@@ -21,7 +24,6 @@ def run(number):
     print('')
     
 def runRandom():
-
     while True:
         rangeRunning = True
         while rangeRunning:
@@ -38,7 +40,6 @@ def runRandom():
         run(number)
 
 def runInput():
-    
     while True:
         inputRunning = True
         while inputRunning:
