@@ -41,7 +41,7 @@ def runInput():
         inputRunning = True
         while inputRunning:
             numVar = input ('Enter a number: ')
-            if numVar.lower() in 'infinity':
+            if numVar.lower() == 'infinity' or numVar.lower() == 'inf':
                 print('nuh uh >:P')
             try:
                 number = int(numVar)
