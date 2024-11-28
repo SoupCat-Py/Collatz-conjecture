@@ -42,7 +42,7 @@ def runInput():
         while inputRunning:
             numVar = input ('Enter a number: ')
             if numVar.lower() in 'infinity':
-                print('nuh uh >:3')
+                print('nuh uh >:P')
             try:
                 number = int(numVar)
                 inputRunning = False
