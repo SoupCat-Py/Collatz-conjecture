@@ -77,6 +77,7 @@ def drawPlot(amounts):
 
 def getList(num):
     global numTitle, terms_until_loop, largest_term, numList
+    numList=[]
     numTitle=num
     numList.append(num)
     while num != 1:
