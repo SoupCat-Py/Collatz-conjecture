@@ -47,17 +47,25 @@ dl_disabled_base64=b'iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4
 image_file_base64=b'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'
 txt_file_base64=b'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'
 
+#functions for actually downloading files
 def dl_image():
+    #check if user already has image for that number
     if os.path.exists(f'collatz_{numTitle}.png'):
+        #error
         sg.popup_annoying('File already exists', button_type=5, image=x_base64, background_color='red', auto_close=True, auto_close_duration=1, font=tahoma12, modal=True)
     else:
         fig.savefig(f'collatz_{numTitle}.png')
+        #confirmation
         sg.popup_annoying('Downloaded Image', button_type=5, image=check_base64, background_color='green', auto_close=True, auto_close_duration=1, font=tahoma12, modal=True)
 def dl_txt():
+    #check if user already has txt file for that number
     if os.path.exists(f'collatz_{numTitle}.txt'):
+        #error popup
         sg.popup_annoying('File already exists', button_type=5, image=x_base64, background_color='red', auto_close=True, auto_close_duration=1, font=tahoma12, modal=True)
     else:
+        #create file
         with open(f'collatz_{numTitle}.txt', 'a') as file:
+            #write stuff in the file
             file.write(f'Collatz Conjecture sequence of {numTitle}:\n')
             file.write('\n')
             file.write(f'''Terms until loop: {terms_until_loop}
@@ -68,14 +76,18 @@ largest term: {largest_term} \n''')
 
             file.write(f'{vertList}\n')
             file.write('[4-2-1 loop]')
+            #confirmation
             sg.popup_annoying('Downloaded Text File', button_type=5, image=check_base64, background_color='green', auto_close=True, auto_close_duration=1, font=tahoma12, modal=True)
 
+#function to open window and manage downloads
 def dl_prompt():
+    #layout
     dl_layout = [ [sg.Button('', image_data=image_file_base64, button_color=(sg.theme_background_color(), sg.theme_background_color()), border_width=0, key='image'), 
                    sg.Button('', image_data=txt_file_base64, button_color=(sg.theme_background_color(), sg.theme_background_color()), border_width=0, key='txt')],
                     [sg.Push(), sg.Button('Download Both', font=tahoma14, mouseover_colors='blue', key='both'), sg.Push()] ]
     dl_window = sg.Window('Download',dl_layout, icon=dl_icon_base64, finalize=True)
     dl_window.bind('<Escape>','exit')
+    #window loop
     while True:
         dl_event, dl_values = dl_window.read()
         
@@ -95,6 +107,7 @@ def is_valid_input(value):
     allowed_characters = "0123456789"
     return all(char in allowed_characters for char in value)
 
+#make the actual graph
 def drawPlot(amounts):
     global numTitle, fig
     
@@ -120,9 +133,11 @@ def drawPlot(amounts):
     fig.patch.set_facecolor('#f0f0f0') # background
     ax.set_facecolor('#e0e0e0')
 
+    #block=False makes sure the user can interact with the main window after closing the graph
     plt.show(block=False)
     return fig
 
+#make list for all terms
 def getList(num):
     global numTitle, terms_until_loop, largest_term, numList
     numList=[]
@@ -139,6 +154,7 @@ def getList(num):
     terms_until_loop = len(numList)
     largest_term = max(numList)
 
+#define main window layout
 sg.theme('pythonplus')
 mainLayout = [ [sg.Push(), sg.Image(image_base64), sg.Push()],
                [sg.Radio('Set Number', group_id=1, default=True, key='set', font=tahoma10, enable_events=True), sg.Radio('Random In Range', group_id=1, default=False, key='random', font=tahoma10, enable_events=True)],
@@ -152,10 +168,12 @@ mainLayout = [ [sg.Push(), sg.Image(image_base64), sg.Push()],
 
 mainWindow = sg.Window('Collatz Conjecture Grapher', mainLayout, icon=icon_base64, finalize=True)
 mainWindow.bind('<Escape>','Exit')
+
+#main window loop
 while True:
     event, values = mainWindow.read()
 
-    if event in ('Exit', sg.WIN_CLOSED):
+    if event in ('Exit', sg.WIN_CLOSED, None):
         break
 
     if event == 'Clear':
@@ -169,6 +187,7 @@ while True:
             getList(numTemp)
         elif values['random']:
             getList(r.randint(1,numTemp))
+        #update all the stuff that is only on after you graph
         mainWindow['Info'].update(image_data=info_base64)
         mainWindow['View'].update(image_data=view_base64)
         mainWindow['dl'].update(image_data=dl_base64)
