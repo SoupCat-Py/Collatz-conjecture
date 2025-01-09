@@ -6,4 +6,4 @@ v3 is a complete rework of the whole thing that includes a GUI and can graph the
 I have also included a build of version 3 - however you will still need a PySimpleGUI developer licence, but there is a free trial for 31 days <br />
 
 *You will need to install PySimpleGUI and matplotlib to run collatz-v3.py* <br />
-*You'll also need a 7z opener to get the .exe file for v3 because the .zip was like 38MB*
+I am working on a build atm
